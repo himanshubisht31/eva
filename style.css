@@ -1,0 +1,18 @@
+#mainDiv{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    gap: 20%;
+    text-align: center;
+}
+
+.box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box button{
+    width: 50%;
+    margin: auto;
+}
